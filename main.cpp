@@ -12,15 +12,15 @@ int main()
  
   cin>> characterz;
    ASCII=characterz;
-   if ((ASCII >= 97) ||(ASCII <=122)) {
+   if ((ASCII >= 97) && (ASCII <=122)) {
 
   //when user's entry is between a-z...
   //
-    cout<<" is an lower case letter!\n";
-   }  else if ((ASCII >=65) || (ASCII <=90)) {
+    cout<<characterz<< " is a lower case letter!\n";
+   }  else if ((ASCII >=65) && (ASCII <=90)) {
 
   //when user's entry is between A-Z...
-    cout<<" is a upper case letter!\n";
+    cout<<characterz<<" is a upper case letter!\n";
    } else {
 
   //in all other cases...
@@ -28,7 +28,7 @@ int main()
    } 
 
   //no matter what they enter...
-  cout<<"The ASCII value is: "<<ASCII ;
+  cout<<"The ASCII value is: "<<ASCII<< endl ;
 
   return 0;
 }
