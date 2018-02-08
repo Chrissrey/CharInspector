@@ -16,11 +16,11 @@ int main()
 
   //when user's entry is between a-z...
   //
-    cout<<characterz<< " is a lower case letter!\n";
+    cout<<characterz<< " is an lower case letter!\n";
    }  else if ((ASCII >=65) && (ASCII <=90)) {
 
   //when user's entry is between A-Z...
-    cout<<characterz<<" is a upper case letter!\n";
+    cout<<characterz<<" is an upper case letter!\n";
    } else {
 
   //in all other cases...
