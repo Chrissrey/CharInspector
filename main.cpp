@@ -16,7 +16,7 @@ int main()
 
   //when user's entry is between a-z...
   //
-    cout<<characterz<< " is an lower case letter!\n";
+    cout<<characterz<< " is a lower case letter!\n";
    }  else if ((ASCII >=65) && (ASCII <=90)) {
 
   //when user's entry is between A-Z...
@@ -24,7 +24,7 @@ int main()
    } else {
 
   //in all other cases...
-    cout<<"?! Pssh. What are you talking about?\n";
+    cout<<"$?! Pssh. What are you talking about?\n";
    } 
 
   //no matter what they enter...
